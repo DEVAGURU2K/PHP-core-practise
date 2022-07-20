@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Registration Form</title>
+</head>
+<body>
+    <form  id= "myForm" action="home.php"  method="post">
+        <div id ="container">
+            <h1>Registration Form</h1>
+            <input type="text" name="full_name" id="id1" placeholder="Enter the First name "><br>
+            <input type="text" name="last_name" id="id2" placeholder="Enter the Last name "><br>
+            <input type="radio" name="gender" value="male" id="id3"  checked="checked">male 
+            <input type="radio" name="gender" value="female" id="id4" >female<br>
+            <input type="date" name="birth" id="id5" placeholder="choose the date of birth "><br>
+            <input type="text" name="email" id="id6" placeholder="Enter the email id "><br>
+            <input type="number" name="phno" id="id7" placeholder="Enter the phonenumber "><br>
+            <input type="password" name="pwd" id="id8" placeholder="Enter the password "><br>
+            <input type="checkbox" id ="id9"> show password <br>
+            <input type="password" name="confrmpwd" id="id10" placeholder="Enter the conform password "><br>
+            <input type="checkbox" id ="id11"> show password <br>
+            <button  name="submit">submit</button>
+
+
+        </div>
+    </form>
+    <script src="script.js"></script>
+    
+</body>
+</html>
