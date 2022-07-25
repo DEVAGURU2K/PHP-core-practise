@@ -1,0 +1,18 @@
+.container{
+    width: 600px;
+    height:400px;
+    background-color:  #f1f1ea0c;
+    justify-content: center;
+
+
+}
+#btn2{ 
+   margin-top: 30px;
+   margin-left: 650px;
+   /* background-color: rgb(16, 96, 214); */
+}
+
+
+input{
+    width: 20px;
+}

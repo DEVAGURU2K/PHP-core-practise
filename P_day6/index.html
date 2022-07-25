@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+  <div class ="container">
+    <form  action="register.php" class ="myform" method="POST" autocomplete="off">
+        <div>
+           <button id="btn2"> <a href="http://localhost/PHP/p_day6/login.php">LOGIN</a> </button>
+        </div>
+        <h2>Registartion Form</h2>
+        <div class="mb-3">
+            <input class="form-control " type="text" placeholder=" Enter your name" id="tb_1" name="username" required=""><br>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="email" placeholder=" Enter your eamil" id="tb_2" name="email" required="" ><br>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="password" placeholder=" Enter your password" id="tb_3" name = "password" required=""><br>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="password" placeholder=" Enter your conform password" id="tb_4" name= "conformpassword" required=""><br>
+        </div>
+            <button  class="btn btn-primary" id ="register" name="submit">REGISTER</button>
+        </div>
+      
+
+    </form>
+  </div>
+</body>
+</html>
